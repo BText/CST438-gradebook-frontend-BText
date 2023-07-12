@@ -21,6 +21,8 @@ class Assignment extends React.Component {
    componentDidMount() {
     this.fetchAssignments();
   }
+  
+
  
   fetchAssignments = () => {
     console.log("Assignment.fetchAssignments");
@@ -82,6 +84,10 @@ class Assignment extends React.Component {
             <Button component={Link} to={{pathname:'/gradebook',   assignment: assignmentSelected }} 
                     variant="outlined" color="primary" disabled={this.state.assignments.length===0}  style={{margin: 10}}>
               Grade
+            </Button>
+            <Button component={Link} to={{pathname:'/add-assignment'}} 
+                    variant="outlined" color="primary" disabled={this.state.assignments.length===0}  style={{margin: 10}}>
+              Add Assignment
             </Button>
             <ToastContainer autoClose={1500} /> 
           </div>

@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+h4{
+	
+	display:flex;
+	justify-content: left;
+		align-items: left;
+			margin-left: 245px;
+
+}
+
+.appForm{
+	
+	display:flex;
+	justify-content: left;
+		align-items: left;
+
+}
+p {
+	margin-left: 75px;
+}
+
+input {
+	margin-left: 40px;
+}
+
+.fieldTitles{
+	
+	display:flex;
+	justify-content: left;
+	align-items: left;
+
+}
+
+.fieldBoxes{
+	
+	display:flex;
+	justify-content: left;
+	align-items: left;
+
+}
